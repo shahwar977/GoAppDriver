@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            >
+            <ImageView
+                    android:id="@+id/notipic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/ic_launcher_foreground"
+                    />
+            <TextView
+                    android:id="@+id/notinametitle"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/notipic"
+                    android:text="Name:"/>
+            <TextView
+                    android:id="@+id/notiname"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toRightOf="@+id/notinametitle"
+                    android:text="Name"/>
+            <TextView
+                    android:id="@+id/notipickuptitle"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/notipic"
+                    android:layout_below="@+id/notinametitle"
+                    android:text="Pick Up:"/>
+
+            <TextView
+                    android:id="@+id/notipickup"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/notiname"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toRightOf="@+id/notipickuptitle"
+                    android:text="Pick up"/>
+            <TextView
+                    android:id="@+id/notinumbertitle"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/notipic"
+                    android:layout_below="@+id/notipickuptitle"
+                    android:text="Phone Number:"/>
+
+            <TextView
+                    android:id="@+id/notinumber"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/notipickup"
+                    android:layout_marginEnd="15dp"
+                    android:layout_toRightOf="@+id/notinumbertitle"
+                    android:text="number"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

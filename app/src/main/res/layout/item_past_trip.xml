@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cardview_past_trip"
+        app:cardElevation="3dp"
+
+
+
+
+>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/layout_past_trip"
+    >
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_date_past_trip"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  android:text="10/28/19, 5:32 PM"
+                  android:layout_marginTop="8dp"
+                  android:layout_marginStart="8dp"
+                  android:textSize="@dimen/text_view_size"
+
+
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_name_past_trip"
+                  android:text="Super Star SS-70cc"
+                  app:layout_constraintTop_toBottomOf="@id/tv_date_past_trip"
+                  app:layout_constraintStart_toStartOf="@id/tv_date_past_trip"
+                  android:layout_marginTop="4dp"
+                  android:textSize="@dimen/text_view_size"
+
+
+
+
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_price_past_trip"
+                  android:text="Rs:121/="
+                  app:layout_constraintTop_toTopOf="@id/tv_date_past_trip"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  android:textSize="@dimen/text_view_size"
+                  android:textColor="@android:color/black"
+                  android:layout_marginEnd="8dp"
+
+
+
+        />
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imgv_past_trip_star1"
+                     app:layout_constraintEnd_toEndOf="parent"
+                     app:layout_constraintTop_toBottomOf="@+id/tv_price_past_trip"
+                     android:src="@drawable/ic_star_past_trip"
+                     android:background="@android:color/transparent"
+                     android:layout_marginEnd="8dp"
+                     android:layout_marginTop="8dp"
+
+
+        />
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imgv_past_trip_star2"
+                     app:layout_constraintEnd_toStartOf="@+id/imgv_past_trip_star1"
+                     app:layout_constraintTop_toBottomOf="@+id/tv_price_past_trip"
+                     android:src="@drawable/ic_star_past_trip"
+                     android:background="@android:color/transparent"
+                     android:layout_marginTop="8dp"
+
+
+        />
+
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imgv_past_trip_star3"
+                     app:layout_constraintEnd_toStartOf="@+id/imgv_past_trip_star2"
+                     app:layout_constraintTop_toBottomOf="@+id/tv_price_past_trip"
+                     android:src="@drawable/ic_star_past_trip"
+                     android:background="@android:color/transparent"
+                     android:layout_marginTop="8dp"
+
+
+        />
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imgv_past_trip_star4"
+                     app:layout_constraintEnd_toStartOf="@+id/imgv_past_trip_star3"
+                     app:layout_constraintTop_toBottomOf="@+id/tv_price_past_trip"
+                     android:src="@drawable/ic_star_past_trip"
+                     android:background="@android:color/transparent"
+                     android:layout_marginTop="8dp"
+
+
+        />
+        <ImageButton android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/imgv_past_trip_star5"
+                     app:layout_constraintEnd_toStartOf="@+id/imgv_past_trip_star4"
+                     app:layout_constraintTop_toBottomOf="@+id/tv_price_past_trip"
+                     android:src="@drawable/ic_star_past_trip"
+                     android:background="@android:color/transparent"
+                     android:layout_marginTop="8dp"
+
+
+        />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/tv_cash_past_trip"
+                  app:layout_constraintEnd_toStartOf="@id/imgv_past_trip_star5"
+                  android:text="Cash"
+                  android:layout_marginEnd="8dp"
+                  app:layout_constraintBottom_toBottomOf="@+id/imgv_past_trip_star5"
+                  app:layout_constraintTop_toTopOf="@+id/imgv_past_trip_star5"/>
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/imgv_past_trip"
+                   app:layout_constraintTop_toBottomOf="@+id/tv_name_past_trip"
+                   android:src="@mipmap/ic_map_image"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   android:scaleType="fitXY"
+                   android:layout_margin="8dp"
+
+
+                   android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

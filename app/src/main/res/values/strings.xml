@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">GoApp Driver</string>
+
+
+    //for login activity
+    <string name="login_activity_text_1">LOGIN</string>
+    <string name="login_activity_text_2">USERNAME</string>
+    <string name="login_activity_text_3">PASSWORD</string>
+
+    //for main map fragment
+    <string name="main_map_fragment_text_1">Good Morning</string>
+
+    //for accept ride fragment
+    <string name="accept_ride_fragment_text_1">Accept Ride</string>
+    <string name="accept_ride_fragment_text_2">Cancel</string>
+    <string name="accept_ride_fragment_text_3">Accept</string>
+
+    //for arrived fragment
+    <string name="arrived_fragment_text_1">You\'re about to arrive</string>
+    <string name="arrived_fragment_text_2">Arrived</string>
+
+    //for end ride fragment
+    <string name="end_ride_fragment_text_1">End Ride</string>
+
+    <string name="title_fragment_past_trip">Past Trip</string>
+    <string name="title_fragment_notifications">Notifications</string>
+    <string name="title_fragment_ride_reciept">Ride Receipt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="message_need_permission">Need Permissions</string>
+    <string name="message_permission">This app needs permission to use this feature. You can grant them in app
+        settings.
+    </string>
+    <string name="title_go_to_setting">GOTO SETTINGS</string>
+
+    //for ride reciept fragment
+    <string name="ride_reciept_fragment_text_1">Customer Name</string>
+    <string name="ride_reciept_fragment_text_2">Pickup location</string>
+    <string name="ride_reciept_fragment_text_3">Dropoff location</string>
+    <string name="ride_reciept_fragment_text_4">Vehicle No.</string>
+    <string name="ride_reciept_fragment_text_5">Fare</string>
+    <string name="ride_reciept_fragment_text_6">Fare Collected</string>
+
+
+</resources>
